@@ -13,7 +13,7 @@ interface Course {
    image: string;
 }
  
-const page = () => {
+const Page = () => {
   return (
     <div className="min-h-screen dark:bg-slate-900 bg-slate-400 py-12 pt-36">
       <h1 className="text-center text-lg md:text-5xl font-sans font-bold mb-8 text-white">
@@ -70,4 +70,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
